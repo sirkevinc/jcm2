@@ -5,6 +5,7 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <footer className={"footer__container"}>
+            <div className={"footer__line"}/>
             <div className={"footer__content"}>
                 {/* <img className="footer__logo" src={Logo} alt="JCM logo" /> */}
                 <span>Copyright © 2022 JCM</span>

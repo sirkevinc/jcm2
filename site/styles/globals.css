@@ -34,7 +34,12 @@ a {
 footer {
   height: 200px;
   text-align: center;
+}
 
+.footer__line {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
 }
 
 .footer__content {

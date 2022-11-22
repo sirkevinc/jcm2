@@ -1,3 +1,6 @@
+/* eslint-disable react/no-children-prop */
+// @ts-nocheck 
+
 import React from "react"
 import Footer from "./Footer"
 import HideAppBar from "./Appbar"
