@@ -18,7 +18,7 @@ export default function Contact() {
       <main className={styles.main}>
       <header className={styles.header__container}>
           <div className={styles.header__image}>
-            <Image src={Cover} alt="cover" objectFit="contain" layout="responsive" />
+            <Image src={Cover} alt="cover" objectFit="cover" />
           </div>
           <section className={styles.header__contents}>
             <h1>We're Here</h1>

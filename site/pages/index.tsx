@@ -35,21 +35,27 @@ export default function Home() {
               <p>Digital, business and technology consulting centered on you</p>
             </section>
               <section className={styles.header__cards_container}>
+                <div>
                 <WhatCard 
                   title="Save money and Time" 
                   icon="work"
                   content="Some text in here describing the thing at the top"
                   />
+                </div>
+                <div>
                 <WhatCard 
                   title="Financial Services" 
                   icon="bank"
                   content="Some text in here describing the thing at the top"
                   />
+                </div>
+                <div>
                 <WhatCard 
                   title="Business & Finances" 
                   icon="business"
                   content="Some text in here describing the thing at the top"
                   />
+                  </div>
                 </section>
           </section>
           <section className={styles.header__section}>

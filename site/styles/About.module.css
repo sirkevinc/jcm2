@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-height: 620px;
   }
   
 .header__image:after {
@@ -21,6 +22,8 @@
   
 .header__image img {
     border: 1px solid #000;
+    max-height: 620px;
+    width: auto;
 }
 
 .header__contents {
