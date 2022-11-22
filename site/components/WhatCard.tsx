@@ -28,7 +28,7 @@ export default function BasicCard({ icon, title, content }: props) {
 
     const IconComponent = icons[icon] as keyof props;
     return (
-    <Card sx={{ width: 200 }}>
+    <Card sx={{ width: 215 }}>
       <CardContent>
         {IconComponent}
         <Typography variant="h6" component="div">
