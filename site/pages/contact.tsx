@@ -16,14 +16,14 @@ export default function Contact() {
       </Head>
 
       <main className={styles.main}>
-      <header className={styles.header__container}>
-          <div className={styles.header__image}>
-            <Image src={Cover} alt="cover" objectFit="cover" />
-          </div>
-          <section className={styles.header__contents}>
-            <h1>We're Here</h1>
-            <p>Our door is always open</p>
-          </section>
+        <header className={styles.header__container}>
+            <div className={styles.header__image}>
+              <Image src={Cover} alt="cover" objectFit="cover" />
+            </div>
+            <section className={styles.header__contents}>
+              <h1>We're Here</h1>
+              <p>Our door is always open</p>
+            </section>
           </header>
         <ContactForm />
       </main>

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
 import Cover from "../images/about_cover.jpg"
+import TeamCard from '../components/TeamCard'
 
 export default function About() {
   return (
@@ -15,7 +16,7 @@ export default function About() {
       <main className={styles.main}>
         <section className={styles.header__container}>
           <div className={styles.header__image}>
-          <Image src={Cover} alt="cover" objectFit="cover" />
+            <Image src={Cover} alt="cover" objectFit="cover" />
           {/* <Image src={Cover} alt="cover" layout="responsive" objectFit="contain" /> */}
           </div>
         <div className={styles.header__contents}>
@@ -24,6 +25,13 @@ export default function About() {
           <p>We strive to be a partner to businesses big and small, providing the professional prowess you need to chart your path forward. It’s all part of our mission: To deliver an unmatched experience you won’t get anywhere else.</p>
         </div>
         </section>
+        <div className={styles.about__container}>
+          <section className={styles.about__content}>
+            <h2>Meet our Team</h2>
+            <h4>Passionate and purposeful, our consultants bring deep and diverse skillsets with a desire to dig in and do the work, no matter what — measuring success by results, not promises.</h4>
+            <TeamCard />
+          </section>
+        </div>
       </main>
     </div>
   )

@@ -39,7 +39,7 @@
 }
 
 .header__section {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -61,7 +61,14 @@
   padding: 15px 0;
 }
 
+.header__contents p {
+  display: none;
+}
+
 @media (min-width: 620px) {
+  .header__contents p {
+    display: block;
+  }
   .header__cards_container {
     padding: 60px;
     display: flex;
