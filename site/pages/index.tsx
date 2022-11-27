@@ -39,21 +39,21 @@ export default function Home() {
                 <WhatCard 
                   title="Save money and Time" 
                   icon="work"
-                  content="Some text in here describing the thing at the top"
+                  content="We can help you budget and increase business efficiency"
                   />
                 </div>
                 <div>
                 <WhatCard 
                   title="Financial Services" 
                   icon="bank"
-                  content="Some text in here describing the thing at the top"
+                  content="We work to develop and implement clear action plans"
                   />
                 </div>
                 <div>
                 <WhatCard 
                   title="Business & Finances" 
                   icon="business"
-                  content="Some text in here describing the thing at the top"
+                  content="Our key financial insights can help you achieve your goals"
                   />
                   </div>
                 </section>
