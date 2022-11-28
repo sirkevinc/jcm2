@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <header className={styles.header__container}>
           <div className={styles.header__image}>
-            <Image src={Cover} alt="cover" sizes="fill" />
+            <Image src={Cover} alt="cover" sizes="fill" priority />
           </div>
           <section className={styles.header__contents}>
             <h1>Business Advisory <br /> Services Provider</h1>
