@@ -30,7 +30,10 @@ export default function Home() {
           <section className={styles.header__contents}>
             <h1>Business Advisory <br /> Services Provider</h1>
             <p>Together we can envision, inspire and transform your business</p>
-            <Button href="/about" component={Link} sx={{ width: "150px" }} variant="contained" aria-label="Learn More">Learn More</Button>
+            <Button href="/about" component={Link} sx={{ width: "150px" }} variant="contained" aria-label="Learn More">
+              Learn More
+              <span style={{display: "none"}}>About Us</span>
+            </Button>
           </section>
         </header>
           <section className={styles.header__section}>
