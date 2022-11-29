@@ -21,7 +21,6 @@ export default function About() {
         <section className={styles.header__container}>
           <div className={styles.header__image}>
             <Image src={Cover} alt="cover" objectFit="cover" />
-          {/* <Image src={Cover} alt="cover" layout="responsive" objectFit="contain" /> */}
           </div>
         <div className={styles.header__contents}>
           <h2>About Us</h2>

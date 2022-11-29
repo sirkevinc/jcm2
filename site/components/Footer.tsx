@@ -7,7 +7,6 @@ export default function Footer() {
         <footer className={"footer__container"}>
             <div className={"footer__line"}/>
             <div className={"footer__content"}>
-                {/* <img className="footer__logo" src={Logo} alt="JCM logo" /> */}
                 <span>Copyright © 2022 JCM</span>
                 <ul>
                     <li><Link className="text-link" href="/">Home</Link></li>
