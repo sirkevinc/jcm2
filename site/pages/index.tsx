@@ -35,12 +35,12 @@ export default function Home() {
             </Button>
           </section>
         </header>
-          <section className={styles.header__section}>
-            <section className={styles.header__section_text}>
+          <section className={styles.home__section}>
+            <div className={styles.home__section_header}>
               <h2>What We Do</h2>
               <p>Digital, business and technology consulting centered on you</p>
-            </section>
-              <section className={styles.header__cards_container}>
+            </div>
+              <section className={styles.home__cards_container}>
                 <div>
                 <WhatCard 
                   title="Save money and Time" 
@@ -64,22 +64,22 @@ export default function Home() {
                   </div>
                 </section>
           </section>
-          <section className={styles.header__section}>
-            <section className={styles.header__section_text}>
+          <section className={`${styles.home__section} ${styles.approach__section}`}>
+            <section className={styles.home__section_header}>
               <h2>Our Approach</h2>
             </section>
-            <div className={styles.approach}>
-                <h4>What We Stand For</h4>
-                <p>We are committed to helping you reach your goals and we’ll be with you every step of the way.</p>
-            </div>
-            <div className={styles.approach}>
-                <h4>What We Value</h4>
-                <p>We believe in working together to do good work and serve those around us.</p>
-            </div>
-            <div className={styles.approach}>
-                <h4>Why We're Here</h4>
-                <p>We’re deeply committed to everything we do and it shows in the quality of our work.</p>
-            </div>
+              <div className={styles.approach}>
+                  <h4>What We Stand For</h4>
+                  <p>We are committed to helping you reach your goals and we’ll be with you every step of the way.</p>
+              </div>
+              <div className={styles.approach}>
+                  <h4>What We Value</h4>
+                  <p>We believe in working together to do good work and serve those around us.</p>
+              </div>
+              <div className={styles.approach}>
+                  <h4>Why We're Here</h4>
+                  <p>We’re deeply committed to everything we do and it shows in the quality of our work.</p>
+              </div>
           </section>
           <section className={styles.home__contact}>
             <text>
