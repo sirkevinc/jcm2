@@ -110,7 +110,7 @@ export default function HideAppBar(props: Props) {
                 component="div"
                 sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}  
               >
-                Jangi Consulting Management
+                Jangi Consulting & Management
               </Typography>
               <Typography 
                 variant="h6" 
