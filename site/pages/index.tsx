@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Jangi Consulting Management</title>
+        <title>Jangi Consulting & Management</title>
         <meta name="description" content="Small Business Consulting Services" />
         <meta property="og:title" content="Jangi Consulting" />
         <meta property="og:description" content="Small Business Consulting Services" />
