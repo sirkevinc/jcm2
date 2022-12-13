@@ -68,14 +68,14 @@
     display: block;
   }
   .home__cards_container {
-    padding: 60px;
+    padding: 15px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  .approach__section {
+  /* .approach__section {
     margin-top: -40px;
-  }
+  } */
 }
 
 .home__contact {
