@@ -20,11 +20,11 @@ export default function TeamCard() {
         <>
             <Card sx={{ maxWidth: 250 }}>
                 <CardMedia 
-                    title="TJ"
+                    title="Tom"
                 >
                     <div style={{ position: "relative", width: "100%", height: 150 }}>
                     <Image 
-                        alt="TJ"
+                        alt="Tom"
                         src={Picture}
                         fill
                         />
@@ -32,10 +32,10 @@ export default function TeamCard() {
                 </CardMedia>
                 <CardContent sx={{ textAlign: "center" }}>
                     <Typography variant="h5" component="div">
-                        TJ
+                        Tom
                     </Typography>
                     <Typography variant="body2">
-                        With over a decade of experience consulting and managing small businesses, TJ brings the knowledge and insights into how we can help transform your business.
+                        With over a decade of experience consulting and managing small businesses, Tom brings the knowledge and insights into how we can help transform your business.
                 </Typography>
                 </CardContent>
             </Card>
