@@ -64,7 +64,7 @@
   }
 
   .about__content {
-    max-width: 70%;
+    max-width: 450px;
     display: flex;
     padding: 20px;
     flex-direction: column;

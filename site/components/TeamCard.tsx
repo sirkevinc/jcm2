@@ -26,8 +26,7 @@ export default function TeamCard() {
                     <Image 
                         alt="TJ"
                         src={Picture}
-                        layout="fill"
-                        objectFit="cover"
+                        fill
                         />
                     </div>
                 </CardMedia>
