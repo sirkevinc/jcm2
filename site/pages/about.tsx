@@ -19,14 +19,14 @@ export default function About() {
       </Head>
       <main className={styles.main}>
         <section className={styles.header__container}>
-          <div className={styles.header__image}>
+          {/* <div className={styles.header__image}>
             <Image src={Cover} alt="cover" objectFit="cover" />
+          </div> */}
+          <div className={styles.header__contents}>
+            <h2>About Us</h2>
+            <p>We're centered on what's best for you and your business</p>
+            <p>We strive to be a partner to businesses big and small, providing the professional prowess you need to chart your path forward. It’s all part of our mission: To deliver an unmatched experience you won’t get anywhere else.</p>
           </div>
-        <div className={styles.header__contents}>
-          <h2>About Us</h2>
-          <p>We're centered on what's best for you and your business</p>
-          <p>We strive to be a partner to businesses big and small, providing the professional prowess you need to chart your path forward. It’s all part of our mission: To deliver an unmatched experience you won’t get anywhere else.</p>
-        </div>
         </section>
         <div className={styles.about__container}>
           <section className={styles.about__content}>
