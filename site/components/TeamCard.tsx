@@ -22,11 +22,12 @@ export default function TeamCard() {
                 <CardMedia 
                     title="TJ"
                 >
-                    <div style={{ position: "relative", width: "100%", height: 150 }}>
+                    <div style={{ position: "relative", width: "100%", height: 170 }}>
                     <Image 
                         alt="TJ"
                         src={Picture}
                         fill
+                        sizes="cover"
                         />
                     </div>
                 </CardMedia>

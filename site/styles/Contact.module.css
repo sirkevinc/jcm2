@@ -88,6 +88,14 @@
     padding: 25px 0;
 }
 
+.contact__field input {
+  padding: 10px;
+}
+
+.contact__field textarea {
+  padding: 10px;
+}
+
 .submission__message {
     text-align: center;
 }

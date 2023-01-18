@@ -43,7 +43,8 @@
 .header__image img {
     border: 1px solid #000;
     max-height: 620px;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 .header__contents {
